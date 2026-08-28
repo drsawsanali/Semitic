@@ -1,0 +1,29 @@
+THIRD-PARTY MEDIA AND SOURCE NOTICES
+====================================
+
+The application interface, diagrams, icon and splash artwork in this package
+are original project assets.
+
+The app can load selected archaeological photographs from Wikimedia Commons.
+Those photographs are not embedded in this ZIP. Each artifact card provides a
+link to its source record and a rights note. Current source records include:
+
+- Stele of Hammurabi, Louvre Sb 8:
+  https://commons.wikimedia.org/wiki/File:Code_of_Hammurabi_Louvre_Museum.jpg
+
+- Mesha Stele, Louvre AO 5066, photograph by Tangopaso:
+  https://commons.wikimedia.org/wiki/File:Mesha_stele_(Louvre,_AO_5066).jpg
+
+- Ahiram sarcophagus inscription, photograph by Onceinawhile, CC BY-SA 4.0:
+  https://commons.wikimedia.org/wiki/File:National_Museum_of_Beirut_%E2%80%93_Ahiram_sarcophagus_inscription_2.jpg
+
+- Ugaritic Baal Cycle tablet, photograph by Mbzt, CC BY-SA 3.0:
+  https://commons.wikimedia.org/wiki/File:P1180250_Louvre_Langue_ougaritique_Tablette_poeme_mythologique_AO16641_et_16642_rwk.jpg
+
+- Palmyrene funerary inscription, Louvre AO 2205, photograph by Marie-Lan
+  Nguyen, public-domain dedication:
+  https://commons.wikimedia.org/wiki/File:Inscription_Palmyra_Louvre_AO2205.jpg
+
+Licenses and attribution details can change or be clarified on the source
+record. Verify the source page before redistributing images or producing a
+commercial publication.

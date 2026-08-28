@@ -1,0 +1,10 @@
+{
+  "app": "Semitic Languages Academic Atlas",
+  "version": "1.1.0-webintoapp-academic-tools",
+  "packageRecommendation": "com.sawsan.semiticatlas",
+  "entryPoint": "index.html",
+  "buildType": "offline-html",
+  "generated": "2026-08-28",
+  "datasetVersion": "1.2.1",
+  "modules": ["academic-tools-center", "expanded-lexicon", "expanded-inscriptions", "sound-law-engine", "advanced-export", "review-workflow"]
+}

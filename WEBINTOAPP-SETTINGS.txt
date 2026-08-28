@@ -1,0 +1,81 @@
+دليل الرفع المباشر إلى WebIntoApp Author | App Maker
+====================================================
+
+هذا الملف ZIP معدّ بنيةً للرفع مباشرة. لا تفك الضغط ثم تعيد ضغط المجلد الأب.
+عند فتح ZIP يجب أن يظهر index.html فورًا في الجذر.
+
+1) Source / مصدر التطبيق
+------------------------
+اختر: HTML Files / HTML App
+ارفع الملف: SemiticAtlas-WebIntoApp-v1.1.0-ACADEMIC-TOOLS-READY.zip
+
+2) App Details / بيانات التطبيق
+-------------------------------
+App Name:
+أطلس اللغات السامية
+
+English Store Name:
+Semitic Languages Academic Atlas
+
+Major Version: 1
+Minor Version: 1
+
+Package Name (ثابت ولا تغيّره بعد أول نشر):
+com.sawsan.semiticatlas
+
+Company / Organization:
+Sawsan Ali Abdullah Al-Hadouri
+
+Description:
+موسوعة أكاديمية تفاعلية للغات السامية وفروعها، تجمع التاريخ والفيلولوجيا
+والنقوش والخرائط والمعجم المقارن والصوتيات والمراجع والاختبارات في منصة
+تعليمية ثنائية اللغة تعمل محليًا على الهاتف.
+
+3) Icon and Splash
+------------------
+Icon: استخدم WebIntoApp-App-Icon-512.png
+المقاس: 512 × 512 PNG
+
+Splash Screen: اختر Image
+استخدم WebIntoApp-Splash-1080x1920.png
+Background color: #10243C
+
+4) WebView / Advanced Settings الموصى بها
+------------------------------------------
+Screen orientation: Auto / Sensor
+JavaScript: Enabled
+DOM / Local Storage: Enabled
+Internet Permission: Enabled
+Storage / File Download & Upload: Enabled
+Cache: Enabled
+Zoom Controls: Disabled
+New Window / External URLs: Open in system browser
+HTTP Requests: Enabled (المشروع نفسه يستخدم HTTPS فقط)
+Toolbar: Hidden
+Status / Systray color: #10243C
+Status text/icons: Light / White
+Back button: Web history first, then close app
+Media / Microphone: اختياري؛ يفعّل فقط لمدرب النطق
+
+5) Build
+--------
+في الاختبار الأول لا تضف Firebase أو AdMob حتى تتأكد من فتح كل الشاشات.
+اختر Free لبناء APK/AAB تجريبي، أو Dedicated عند الحاجة إلى العلامة البيضاء
+والملكية الكاملة والمصدر.
+
+بعد الضغط على Make App:
+1. نزّل APK وثبته على هاتف حقيقي.
+2. اختبر: القارئ، التنقل، البحث، العربية RTL، الإنجليزية LTR، الوضع الداكن،
+   حفظ التقدم، مركز الأدوات الأكاديمية، المعجم الموسع، محاكي التحولات،
+   التعليقات والمراجعة، فتح الصور، تنزيل JSON/CSV/TEI/LaTeX، واختيار ملف
+   من مختبري OCR والصوت.
+3. احتفظ باسم الحزمة ومفتاح التوقيع نفسه في كل تحديث لاحق.
+
+6) ملاحظات مهمة
+----------------
+- التطبيق الأساسي يعمل Offline لأن ملفات الواجهة والبيانات داخل ZIP.
+- الصور الأثرية الخارجية وروابط الناشرين تحتاج اتصالًا بالإنترنت؛ تظهر بطاقة
+  بديلة عند غياب الشبكة.
+- القراءة الصوتية تعتمد الأصوات المثبتة على جهاز المستخدم.
+- الميكروفون يحتاج موافقة المستخدم ويستخدم فقط عند بدء مدرب النطق.
+- الخادم وPHP وMySQL غير مطلوبين ولا توجد ملفات منها في الحزمة.
